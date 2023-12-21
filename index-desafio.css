@@ -91,6 +91,7 @@ main {
     font-family: var(--fonte-text);
     padding: 20px;
     margin: auto;
+    margin-bottom: 30px;
     min-width: 300px;
     max-width: 1000px;
     border-bottom-left-radius: 4px;
