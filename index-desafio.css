@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam&family=Preahvihear&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    --cor0: #F2ECE4;
+    --cor1: #F2E2CE;
+    --cor2: #F2E4BB;
+    --cor3: #D9C2A7;
+    --cor4: #BD9562;
+    --cor5: #594A3C;
+
+    --fonte-padrao: Helvetica, Arial, sans-serif;
+    --fonte-text: 'Quicksand', sans-serif;
+    --fonte-titulo: 'Preahvihear', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+
+    background-color: var(--cor0);
+    font: var(--fonte-padrao);
+    
+    
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor5), var(--cor3));
+    min-height: 120px;
+    margin: auto;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.288);
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    padding-top: 30px;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.362);
+    
+}
+
+header p {
+    color: white;
+    text-align: center;
+    padding: 10px;   
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor5);
+    font-size: 1.3em;
+}
+
+nav {
+    background-color: var(--cor5);
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center; 
+    font-size: 1.1em;
+    border-radius: 5px;
+   
+}
+
+ nav a:hover {
+
+    background-color: var(--cor3);
+    color: var(--cor5);
+    
+ }
+
+
+main {
+    
+    background-color: white;
+    font-family: var(--fonte-text);
+    padding: 12px;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.288);
+   
+}
+
+main div.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+main div.voltar {  
+    height: 52px;
+    width: 52px;
+    background-color: #D9C2A7;
+    border-radius: 50%; 
+    padding: 3px;
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.288);
+}
+   
+
+main div.proximo { 
+    height: 52px;
+    width: 52px;    
+    background-color: #D9C2A7; 
+    border-radius: 50%; 
+    padding: 3px;    
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.288);   
+}
+section > h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section > h3 {
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    color: white;
+}
+
+section p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 2em;
+
+
+}
+section p.pdf {
+    text-indent: 0px;
+    text-align: center;
+    
+}
+
+section ul {
+    list-style-position: inside;
+    line-height: 2em;
+}
+
+section hr {
+    margin: 20px 0px;
+    border-color: var(--cor3);
+    border-width: 1.5px;
+}
+
+section a {
+    text-decoration: none;
+    background-color: var(--cor0);
+    color: var(--cor5);
+    border-radius: 8px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: var(--cor4);
+}
+
+aside {
+    background-color: white;
+    font-family: var(--fonte-text);
+    padding: 12px;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-style: solid;
+    border-color: var(--cor5);
+   
+}
+
+aside  ul {
+    list-style: circle;
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    font-family: var(--fonte-text);
+    background-color: var(--cor5);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+
+}
