@@ -69,6 +69,7 @@ nav a {
     text-decoration: none;
     color: white;
     margin: 20px;
+    margin-bottom: 15px;
     padding: 10px;
     text-align: center; 
     font-size: 1.1em;
@@ -90,7 +91,7 @@ main {
     font-family: var(--fonte-text);
     padding: 12px;
     margin: auto;
-    min-width: 300px;
+    min-width: 276px;
     max-width: 1000px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px; 
@@ -123,7 +124,7 @@ main div.proximo {
 }
 
 section {
-    min-width: 300px;
+    min-width: 276px;
     max-width: 1000px
 }
 section > h1 {
@@ -182,7 +183,7 @@ aside {
     font-family: var(--fonte-text);
     padding: 12px;
     margin: auto;
-    min-width: 300px;
+    min-width: 276px;
     max-width: 1000px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
