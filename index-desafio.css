@@ -89,7 +89,7 @@ main {
     
     background-color: white;
     font-family: var(--fonte-text);
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     margin: auto;
     margin-bottom: 30px;
     min-width: 300px;
