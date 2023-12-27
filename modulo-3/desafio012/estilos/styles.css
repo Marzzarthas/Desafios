@@ -1,0 +1,111 @@
+@charset "UFT-8";
+
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    padding: 30px 30px 10px 30px;
+    font-size: 3em;
+    color: white;   
+    
+}
+
+header p {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+
+}
+
+main{
+    
+    text-align: justify;
+    line-height: 2em;
+
+}
+div.verso1 {
+    height: 500px;
+    
+}
+div.verso1 > pre > p {
+    font-size: 1.2em;
+    margin-left: -140px;
+
+}
+
+div.verso2 {   
+    background-image: url(../imagens/background001.jpg);
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    
+    }
+div.verso2 > pre > p {
+    height: 500px;
+    font-size: 1.2em;
+    margin-left: -140px;
+    width: 300px;
+    color: white;
+    
+
+}
+
+div.verso3 {
+    height: 500px;
+    
+}
+div.verso3 > pre > p {
+    font-size: 1.2em;
+    margin-left: -140px;
+
+}
+
+div.verso4 {
+    padding: 30px;
+    background-color: black;
+    background-image: url(../imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    margin-top: 50px;
+    
+}
+div.verso4 > pre > p {
+    height: 500px;
+    font-size: 1.5em;
+    margin-left: -190px;
+    color: black;
+
+}
+div.verso5 {
+    height: 500px;
+    
+}
+div.verso5 > pre > p {
+    font-size: 1.2em;
+    margin-left: -140px;
+
+}
