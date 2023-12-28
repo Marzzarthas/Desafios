@@ -1,5 +1,14 @@
 @charset "UFT-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
 
 
 
@@ -14,28 +23,34 @@ body {
 }
 header {
     background-color: black;
-    height: 150px;
+    height: 200px;
     margin: auto;
     text-align: center;
-    padding: 10px;
+    padding-bottom: 40px;
 }
 
 header h1 {
-    padding: 30px 30px 10px 30px;
-    font-size: 3em;
-    color: white;   
+    padding-top: 30px;
+    font-size: 5em;
+    color: white;
+    font-family: var(--fonte2), sans-serif; 
     
 }
 
 header p {
     color: white;
     font-weight: bolder;
-    margin-bottom: 20px;
+    padding: 10px;    
+    font-family: var(--fonte1);
 }
 
 header > p > a {
     text-decoration: none;
     color: white;
+    font-family: var(--fonte2), sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    
 }
 
 header > p > a:hover {
@@ -44,19 +59,21 @@ header > p > a:hover {
 }
 
 
-main{
-    
+main{    
     text-align: justify;
-    line-height: 2em;
-    
+    line-height: 3em;
+    padding: 10px;  
 
 }
+
+
 
     
 
 div.verso1 > pre > p {
     font-size: 1.5em;
-    margin-left: -140px;
+    margin-left: -100px;
+    font-family: var(--fonte3), serif;
 
 }
 
@@ -69,14 +86,20 @@ div.verso2 {
     margin-top: 50px;
     padding: 10px;
     box-shadow: inset 6px 6px 3px white;
+    margin-left: -20px;
     
     }
 div.verso2 > pre > p {
     
     font-size: 1.5em;
-    margin-left: -170px;
-    width: 300px;
+    margin-left: -100px;
+    font-family: var(--fonte3), serif;
+    width: 500px;
     color: white;
+    line-height: 2.8em;
+    backdrop-filter: blur(2px) saturate(50%);
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 6px;
     
 
 }
@@ -84,7 +107,8 @@ div.verso2 > pre > p {
 
 div.verso3 > pre > p {
     font-size: 1.5em;
-    margin-left: -140px;
+    margin-left: -100px;
+    font-family: var(--fonte3), serif;
 
 }
 
@@ -96,21 +120,29 @@ div.verso4 {
     background-attachment: fixed;
     background-position: center center;
     margin-top: 50px;
+    margin-left: -20px;
     box-shadow: inset 6px 6px 1px white;
+        
     
 }
 div.verso4 > pre > p {
-    
+    max-width: 500px;
+    min-width: 300px;
     font-size: 1.5em;
-    margin-left: -170px;
-    color: black;
+    margin-left: -100px;
+    font-family: var(--fonte3), serif;
+    color: white;
+    line-height: 2.8em;
+    backdrop-filter: blur(2px) saturate(50%);
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 6px;
 
 }
 
-div.verso5 > pre > div > p {
+div.verso5 > pre > p {
     font-size: 1.5em;
-    margin-left: -140px;
-
+    margin-left: -100px;
+    font-family: var(--fonte3), serif;
 }
 
 footer {
