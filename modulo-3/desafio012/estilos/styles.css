@@ -8,6 +8,10 @@
     margin: 0px;
 }
 
+body {
+    min-width: 400px;
+    background-color: white;
+}
 header {
     background-color: black;
     height: 150px;
@@ -39,73 +43,82 @@ header > p > a:hover {
 
 }
 
+
 main{
     
     text-align: justify;
     line-height: 2em;
+    
 
 }
-div.verso1 {
-    height: 500px;
+
     
-}
+
 div.verso1 > pre > p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-left: -140px;
 
 }
 
 div.verso2 {   
     background-image: url(../imagens/background001.jpg);
-    background-color: black;
-    width: 100%;
+    background-color: black;    
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: inset 6px 6px 3px white;
     
     }
 div.verso2 > pre > p {
-    height: 500px;
-    font-size: 1.2em;
-    margin-left: -140px;
+    
+    font-size: 1.5em;
+    margin-left: -170px;
     width: 300px;
     color: white;
     
 
 }
 
-div.verso3 {
-    height: 500px;
-    
-}
+
 div.verso3 > pre > p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-left: -140px;
 
 }
 
 div.verso4 {
-    padding: 30px;
+    min-height: 100vh;
+    padding: 10px;
     background-color: black;
     background-image: url(../imagens/background002.jpg);
     background-attachment: fixed;
     background-position: center center;
     margin-top: 50px;
+    box-shadow: inset 6px 6px 1px white;
     
 }
 div.verso4 > pre > p {
-    height: 500px;
+    
     font-size: 1.5em;
-    margin-left: -190px;
+    margin-left: -170px;
     color: black;
 
 }
-div.verso5 {
-    height: 500px;
-    
-}
-div.verso5 > pre > p {
-    font-size: 1.2em;
+
+div.verso5 > pre > div > p {
+    font-size: 1.5em;
     margin-left: -140px;
 
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }
